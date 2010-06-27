@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		BFCAA6D911D579E9008D929C /* NSArray+PerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA6D811D579E9008D929C /* NSArray+PerformSelector.m */; };
+		BFCAA6F111D5831F008D929C /* AustraliaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA6EA11D5831F008D929C /* AustraliaDetailViewController.m */; };
+		BFCAA6F211D5831F008D929C /* AustraliaDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCAA6EB11D5831F008D929C /* AustraliaDetailViewController.xib */; };
+		BFCAA6F311D5831F008D929C /* AustraliaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA6ED11D5831F008D929C /* AustraliaViewController.m */; };
+		BFCAA6F411D5831F008D929C /* ItalyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCAA6EE11D5831F008D929C /* ItalyViewController.xib */; };
+		BFCAA6F511D5831F008D929C /* ItalyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA6F011D5831F008D929C /* ItalyViewController.m */; };
+		BFCAA6FB11D583F8008D929C /* sardinia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFCAA6FA11D583F8008D929C /* sardinia.jpg */; };
+		BFCAA70B11D5840B008D929C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCAA70A11D5840B008D929C /* QuartzCore.framework */; };
+		BFCAA71B11D5845D008D929C /* SegmentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCAA71A11D5845D008D929C /* SegmentsController.m */; };
+		BFCAA76111D58778008D929C /* strahan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFCAA76011D58778008D929C /* strahan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlRevisitedAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedControlRevisitedAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SegmentedControlRevisited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedControlRevisited.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SegmentedControlRevisited_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlRevisited_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SegmentedControlRevisited-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SegmentedControlRevisited-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BFCAA6D711D579E9008D929C /* NSArray+PerformSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PerformSelector.h"; sourceTree = "<group>"; };
+		BFCAA6D811D579E9008D929C /* NSArray+PerformSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PerformSelector.m"; sourceTree = "<group>"; };
+		BFCAA6E911D5831F008D929C /* AustraliaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AustraliaDetailViewController.h; sourceTree = "<group>"; };
+		BFCAA6EA11D5831F008D929C /* AustraliaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AustraliaDetailViewController.m; sourceTree = "<group>"; };
+		BFCAA6EB11D5831F008D929C /* AustraliaDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AustraliaDetailViewController.xib; sourceTree = "<group>"; };
+		BFCAA6EC11D5831F008D929C /* AustraliaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AustraliaViewController.h; sourceTree = "<group>"; };
+		BFCAA6ED11D5831F008D929C /* AustraliaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AustraliaViewController.m; sourceTree = "<group>"; };
+		BFCAA6EE11D5831F008D929C /* ItalyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItalyViewController.xib; sourceTree = "<group>"; };
+		BFCAA6EF11D5831F008D929C /* ItalyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItalyViewController.h; sourceTree = "<group>"; };
+		BFCAA6F011D5831F008D929C /* ItalyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItalyViewController.m; sourceTree = "<group>"; };
+		BFCAA6FA11D583F8008D929C /* sardinia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sardinia.jpg; sourceTree = "<group>"; };
+		BFCAA70A11D5840B008D929C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFCAA71911D5845D008D929C /* SegmentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentsController.h; sourceTree = "<group>"; };
+		BFCAA71A11D5845D008D929C /* SegmentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentsController.m; sourceTree = "<group>"; };
+		BFCAA76011D58778008D929C /* strahan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strahan.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				BFCAA70B11D5840B008D929C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFCAA6D411D579CD008D929C /* Extensions */,
+				BFCAA6DA11D57A01008D929C /* Segments */,
+				BFCAA71911D5845D008D929C /* SegmentsController.h */,
+				BFCAA71A11D5845D008D929C /* SegmentsController.m */,
+				1D3623240D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SegmentedControlRevisited.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SegmentedControlRevisited_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFCAA76011D58778008D929C /* strahan.jpg */,
+				BFCAA6FA11D583F8008D929C /* sardinia.jpg */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SegmentedControlRevisited-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				BFCAA70A11D5840B008D929C /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCAA6D411D579CD008D929C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFCAA6D711D579E9008D929C /* NSArray+PerformSelector.h */,
+				BFCAA6D811D579E9008D929C /* NSArray+PerformSelector.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BFCAA6DA11D57A01008D929C /* Segments */ = {
+			isa = PBXGroup;
+			children = (
+				BFCAA6E911D5831F008D929C /* AustraliaDetailViewController.h */,
+				BFCAA6EA11D5831F008D929C /* AustraliaDetailViewController.m */,
+				BFCAA6EB11D5831F008D929C /* AustraliaDetailViewController.xib */,
+				BFCAA6EC11D5831F008D929C /* AustraliaViewController.h */,
+				BFCAA6ED11D5831F008D929C /* AustraliaViewController.m */,
+				BFCAA6EE11D5831F008D929C /* ItalyViewController.xib */,
+				BFCAA6EF11D5831F008D929C /* ItalyViewController.h */,
+				BFCAA6F011D5831F008D929C /* ItalyViewController.m */,
+			);
+			name = Segments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SegmentedControlRevisited */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SegmentedControlRevisited" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentedControlRevisited;
+			productName = SegmentedControlRevisited;
+			productReference = 1D6058910D05DD3D006BFB54 /* SegmentedControlRevisited.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SegmentedControlRevisited" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SegmentedControlRevisited */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				BFCAA6F211D5831F008D929C /* AustraliaDetailViewController.xib in Resources */,
+				BFCAA6F411D5831F008D929C /* ItalyViewController.xib in Resources */,
+				BFCAA6FB11D583F8008D929C /* sardinia.jpg in Resources */,
+				BFCAA76111D58778008D929C /* strahan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SegmentedControlRevisitedAppDelegate.m in Sources */,
+				BFCAA6D911D579E9008D929C /* NSArray+PerformSelector.m in Sources */,
+				BFCAA6F111D5831F008D929C /* AustraliaDetailViewController.m in Sources */,
+				BFCAA6F311D5831F008D929C /* AustraliaViewController.m in Sources */,
+				BFCAA6F511D5831F008D929C /* ItalyViewController.m in Sources */,
+				BFCAA71B11D5845D008D929C /* SegmentsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SegmentedControlRevisited_Prefix.pch;
+				INFOPLIST_FILE = "SegmentedControlRevisited-Info.plist";
+				PRODUCT_NAME = SegmentedControlRevisited;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SegmentedControlRevisited_Prefix.pch;
+				INFOPLIST_FILE = "SegmentedControlRevisited-Info.plist";
+				PRODUCT_NAME = SegmentedControlRevisited;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SegmentedControlRevisited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SegmentedControlRevisited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

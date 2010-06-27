@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'SegmentedControlRevisited' target in the 'SegmentedControlRevisited' project
+//
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "NSArray+PerformSelector.h"
+
+#endif
