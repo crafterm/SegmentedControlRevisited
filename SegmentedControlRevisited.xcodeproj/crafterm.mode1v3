@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,8 +272,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -306,8 +306,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -325,7 +323,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BFCAA77311D7260F008D929C</string>
+										<string>BFCAA78611D72E2E008D929C</string>
 										<key>history</key>
 										<array>
 											<string>BFCAA74111D58637008D929C</string>
@@ -339,7 +337,7 @@
 											<string>BFCAA76A11D725E5008D929C</string>
 											<string>BFCAA76B11D725E5008D929C</string>
 											<string>BFCAA76C11D725E5008D929C</string>
-											<string>BFCAA76D11D725E5008D929C</string>
+											<string>BFCAA77311D7260F008D929C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -397,9 +395,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BFCAA74B11D58637008D929C</string>
+				<string>BFCAA78711D72E2E008D929C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BFCAA74C11D58637008D929C</string>
+				<string>BFCAA78811D72E2E008D929C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,8 +535,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BFCAA6FE11D583FC008D929C</string>
 		<string>/Users/crafterm/Desktop/SegmentedControlRevisited/SegmentedControlRevisited.xcodeproj</string>
 	</array>
@@ -564,7 +560,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AustraliaViewController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -581,8 +577,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -622,7 +616,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BFCAA6FE11D583FC008D929C</string>
-				<string>BFCAA6FF11D583FC008D929C</string>
+				<string>BFCAA78911D72E2E008D929C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
